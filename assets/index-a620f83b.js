@@ -170,6 +170,7 @@ Error generating stack: `+l.message+`
   width: 47%;
   .product-card {
     margin-bottom: 1.5rem;
+    color:red;
     .thumbnail {
       width: 100%;
       background-color: rgba(0, 0, 0, 0.05);
