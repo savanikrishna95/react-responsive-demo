@@ -166,7 +166,7 @@ Error generating stack: `+l.message+`
       font-size: 1.5rem;
     }
   }
-`,rv=e=>d(iv,{children:O("div",{className:"product-card",children:[d("div",{className:"thumbnail",children:d("img",{src:e.imgsrc,alt:""})}),O("div",{className:"prod-details",children:[d("span",{className:"name",children:e.pname}),O("span",{className:"price",children:["₹",e.price]})]}),d("div",{className:"cart-buttons",children:O("button",{className:"add-to-cart-button",children:[d(ev,{size:15}),"ADD TO CART"]})})]})}),iv=Ve.section`
+`,rv=e=>d(iv,{children:O("div",{className:"product-card test",children:[d("div",{className:"thumbnail",children:d("img",{src:e.imgsrc,alt:""})}),O("div",{className:"prod-details",children:[d("span",{className:"name",children:e.pname}),O("span",{className:"price",children:["₹",e.price]})]}),d("div",{className:"cart-buttons",children:O("button",{className:"add-to-cart-button",children:[d(ev,{size:15}),"ADD TO CART"]})})]})}),iv=Ve.section`
   width: 47%;
   .product-card {
     margin-bottom: 1.5rem;
