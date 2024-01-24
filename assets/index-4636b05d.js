@@ -532,7 +532,7 @@ Error generating stack: `+l.message+`
       margin: 10rem 0 12rem;
     }
   }
-`;function zu(e){return ht({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{x1:"5",y1:"12",x2:"19",y2:"12"}},{tag:"polyline",attr:{points:"12 5 19 12 12 19"}}]})(e)}const gt=e=>O(pv,{children:[O("div",{className:"product-card",children:[d("div",{className:"thumbnail",children:d("img",{src:e.imgsrc,alt:""})}),O("div",{className:"prod-details",children:[d("span",{className:"name",children:e.pname}),d("span",{className:"price",children:e.price})]})]}),O("a",{className:"read-btn",children:["Read More ",d(zu,{})]})]}),pv=Ve.section`
+`;function zu(e){return ht({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{x1:"5",y1:"12",x2:"19",y2:"12"}},{tag:"polyline",attr:{points:"12 5 19 12 12 19"}}]})(e)}const gt=e=>O(pv,{children:[O("div",{className:"product-card",children:[d("div",{className:"thumbnail",children:d("img",{src:e.imgsrc,alt:""})}),O("div",{className:"prod-details",children:[d("span",{className:"name",children:e.pname}),d("span",{className:"price",children:e.price})]})]}),O("a",{className:"read-btn testtdata",children:["Read More ",d(zu,{})]})]}),pv=Ve.section`
   .product-card {
     width: 32rem;
     margin-bottom: 1rem;
