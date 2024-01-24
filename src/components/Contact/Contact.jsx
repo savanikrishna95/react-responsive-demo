@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Contact = () => {
   return (
     <Wrapper>
-      <h1 className="contact-heading wrapper-background">
+      <h1 className="contact-heading wrapper-background contactteamdata">
         Contact <span className="contact-sub-heading">Our Team</span>
       </h1>
 
