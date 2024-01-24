@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <Wrapper>
       <h1 className="blog-heading wrapper-background">
-        Read <span className="blog-sub-heading test">Our Blogs dsdsadsa</span>
+        Read <span className="blog-sub-heading testdata">Our Blogs dsdsadsa</span>
       </h1>
       <div className="container">
         <div className="blog-container">
