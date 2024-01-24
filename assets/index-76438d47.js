@@ -578,7 +578,7 @@ Error generating stack: `+l.message+`
     color: ${({theme:e})=>e.colors.bg};
     display: flex;
     align-items: center;
-    text-align:center;
+    text-align:left;
     gap: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
