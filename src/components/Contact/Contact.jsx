@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <h1 className="contact-heading wrapper-background contactteamdata">
-        Contact <span className="contact-sub-heading">Our Team</span>
+        Contact <span className="contact-sub-heading contactteamdata secondtime">Our Team</span>
       </h1>
 
       <div className="container">
