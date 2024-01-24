@@ -8,32 +8,32 @@ const Navbar = () => {
       <div className="menuIcon">
         <ul className="navbar-list">
           <li>
-            <NavLink className="navbar-link" to="/">
+            <NavLink className="navbar-link" to="/react-responsive-demo/">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar-link" to="/menu">
+            <NavLink className="navbar-link" to="/react-responsive-demo/menu">
               Menu
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar-link" to="/blog">
+            <NavLink className="navbar-link" to="/react-responsive-demo/blog">
               Blog
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar-link" to="/about">
+            <NavLink className="navbar-link" to="/react-responsive-demo/about">
               About
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar-link" to="/contact">
+            <NavLink className="navbar-link" to="/react-responsive-demo/contact">
               Contact
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar-link" to="/account">
+            <NavLink className="navbar-link" to="/react-responsive-demo/account">
               Account
             </NavLink>
           </li>

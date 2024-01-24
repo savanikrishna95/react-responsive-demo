@@ -44,12 +44,12 @@ const App = () => {
         <GlobalStyle />
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/account" element={<Account />} />
+          <Route path="/react-responsive-demo/" element={<Home />} />
+          <Route path="/react-responsive-demo/menu" element={<Menu />} />
+          <Route path="/react-responsive-demo/blog" element={<Blog />} />
+          <Route path="/react-responsive-demo/about" element={<About />} />
+          <Route path="/react-responsive-demo/contact" element={<Contact />} />
+          <Route path="/react-responsive-demo/account" element={<Account />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Newsletter />
