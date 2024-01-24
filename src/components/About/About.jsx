@@ -28,7 +28,7 @@ const About = () => {
             </picture>
           </div>
           <div className="section-hero-data">
-            <h1 className="heading-text">Our Vision</h1>
+            <h1 className="heading-text testdatata">Our Vision</h1>
             <p className="hero-para">
               At Pizzas, we don’t just make pizza. We make people happy. Pizzas
               was built on the belief that pizza night should be special, and we
