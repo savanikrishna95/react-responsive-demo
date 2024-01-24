@@ -21,7 +21,7 @@ const Newsletter = () => {
               <input type="text" placeholder="Email Address" />
               <button className="newsletter-btn">Subscribe</button>
             </div>
-            <div className="text">
+            <div className="text testdata">
               Will be used in accordance with our Privacy Policy
             </div>
             <div className="social-icons">
