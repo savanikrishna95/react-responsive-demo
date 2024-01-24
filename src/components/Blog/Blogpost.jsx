@@ -68,6 +68,7 @@ const Wrapper = styled.section`
     color: ${({ theme }) => theme.colors.bg};
     display: flex;
     align-items: center;
+    text-align:center;
     gap: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
