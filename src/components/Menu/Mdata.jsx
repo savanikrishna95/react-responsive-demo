@@ -8,10 +8,10 @@ const Mdata = [
   },
   {
     id: 2,
-    pname: "Margherita Pizza",
+    pname: "Margherita Pizza testy",
     category: "pizza",
     price: 238,
-    imgsrc: "./images/pizza-1.jpg",
+    imgsrc: "./images/pizza-1.jpg123",
   },
   {
     id: 3,
