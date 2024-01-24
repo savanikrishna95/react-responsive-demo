@@ -14,7 +14,7 @@ const Blogpost = (props) => {
           <span className="price">{props.price}</span>
         </div>
       </div>
-      <a className="read-btn">
+      <a className="read-btn testtdata">
         Read More <FiArrowRight />
       </a>
     </Wrapper>
