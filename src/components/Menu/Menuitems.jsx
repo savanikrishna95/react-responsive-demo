@@ -5,7 +5,7 @@ import { BsPlusCircleFill } from "react-icons/bs";
 const Menuitems = (props) => {
   return (
     <Wrapper>
-      <div className="product-card">
+      <div className="product-card test">
         <div className="thumbnail">
           <img src={props.imgsrc} alt="" />
         </div>
