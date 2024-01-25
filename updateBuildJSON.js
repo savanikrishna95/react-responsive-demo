@@ -1,4 +1,4 @@
-import {  fs } from "fs";
+import   fs  from "fs";
 const filePath = "./package.json";
 
 const packageJson = JSON.parse(fs.readFileSync(filePath).toString());
