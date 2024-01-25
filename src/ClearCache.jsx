@@ -9,12 +9,13 @@ const buildDateGreaterThan = (latestDate, currentDate) => {
   }
 };
 
+
 function withClearCache(Component) {
   function ClearCacheComponent(props) {
     const [isLatestBuildDate, setIsLatestBuildDate] = useState(false);
 
     useEffect(() => {
-      fetch("/meta.json")
+      fetch("../public/meta.json")
         .then((response) => response.json())
         .then((meta) => {
           const latestVersionDate = meta.buildDateTime;
