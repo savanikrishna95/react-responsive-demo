@@ -13,8 +13,11 @@ import Account from "./components/Account/Account";
 import Error from "./components/Error/Error";
 import CacheBuster from 'react-cache-buster';
 import { version } from '../package.json';
+import withClearCache from "./ClearCache";
 
-const App = () => {
+
+
+const MainApp = () => {
   const isProduction = true;
   const theme = {
     colors: {
@@ -68,6 +71,10 @@ const App = () => {
     </ThemeProvider>
     </CacheBuster>
   );
+}
+const ClearCacheComponent   = withClearCache(MainApp)
+const App = () => {
+  return (<><ClearCacheComponent/></>)
 };
 
 export default App;

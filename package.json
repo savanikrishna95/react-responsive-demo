@@ -2,7 +2,7 @@
   "name": "responsive-react-restaurant-website",
   "homepage": "https://savanikrishna95.github.io/react-responsive-demo",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -30,7 +30,5 @@
     "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.1.0"
   },
-  "buildDateTime": ""
+  "buildDateTime": 1706176943420
 }
-
-
