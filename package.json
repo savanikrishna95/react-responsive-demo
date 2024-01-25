@@ -6,14 +6,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "build": "npm run generate-meta-tag && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
+    "react-cache-buster": "^0.1.8",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.5",
     "react-icons": "^4.8.0",

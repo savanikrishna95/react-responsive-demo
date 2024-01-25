@@ -11,8 +11,11 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import Account from "./components/Account/Account";
 import Error from "./components/Error/Error";
+import CacheBuster from 'react-cache-buster';
+import { version } from '../package.json';
 
 const App = () => {
+  const isProduction = true;
   const theme = {
     colors: {
       heading: "rgb(24, 24, 29)",
@@ -39,6 +42,13 @@ const App = () => {
   };
 
   return (
+    <CacheBuster
+      currentVersion={version}
+      isEnabled={isProduction} //If false, the library is disabled.
+      isVerboseMode={false} //If true, the library writes verbose logs to console.
+      loadingComponent={<h1>Loading..</h1 >} //If not pass, nothing appears at the time of new version check.
+      metaFileDirectory={'.'} //If public assets are hosted somewhere other than root on your server.
+    >
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <GlobalStyle />
@@ -56,6 +66,7 @@ const App = () => {
         <Footer />
       </BrowserRouter>
     </ThemeProvider>
+    </CacheBuster>
   );
 };
 
