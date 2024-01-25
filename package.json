@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-app-rewired start",
     "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
