@@ -8,8 +8,8 @@
     "dev": "vite",
     "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist && npm run build",
-    "build": "npm run generate-meta-tag && set TIMESTAMP=%date:~10,4%%date:~4,2%%date:~7,2%%time:~0,2%%time:~3,2% && vite build --mode=production --env.VITE_TIMESTAMP=%TIMESTAMP%",
+    "deploy": "gh-pages -d dist",
+    "build": "npm run generate-meta-tag && vite build",
     "preview": "vite preview"
   },
 
