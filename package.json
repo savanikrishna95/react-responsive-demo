@@ -2,18 +2,17 @@
   "name": "responsive-react-restaurant-website",
   "homepage": "https://savanikrishna95.github.io/react-responsive-demo",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-app-rewired start",
     "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "npm run generate-meta-tag && vite build",
     "preview": "vite preview"
   },
-
-  
   "dependencies": {
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
@@ -30,7 +29,6 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
-    "react-app-rewired": "^2.2.1",
     "vite": "^4.1.0"
   }
 }
